@@ -1,0 +1,183 @@
+     /*    Reset */
+     * {margin:0;
+        padding: 0;}
+a {text-decoration: none;
+        color: rgb(255, 255, 255);}
+ul {list-style: none;
+         margin-left: 0;} 
+
+   /*    Codigo Propio */
+
+html{font-size: 1rem;}
+
+
+.container {width: 100%;
+            min-height: 25rem;
+            background-color:rgb(27, 24, 70);}
+
+.centrado {margin: 0 auto;}
+
+footer { background-color: rgb(27, 22, 70);
+         display: flex;
+         min-height: 5rem;}
+
+
+header {min-height:9rem;
+        background-color: rgb(5, 245, 213);
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;}
+
+header img { width: 15%;}
+
+   h1 {color: rgb(255, 255, 255);
+      font-size: 3.0rem;
+      text-align: center;}
+
+nav {background-color:rgb rgb(245, 245, 244);
+     min-height: 4rem;
+     display: flex;
+     width: 100%;
+     justify-content: space-around;
+     align-items: center;
+     color: white;}
+
+ main {background-color: rgb(255, 255, 255);
+       min-height: 38rem;
+       font-size: 2rem;
+       text-align: center;
+       flex-direction: column;
+       justify-content: space-around;
+       gap: 0rem;}    
+
+ul {background-color: rgb(27, 22, 70);
+    width: 35%;
+    display: flex;
+    justify-content:space-around;}
+
+h4 {width: 25%;
+    color:rgb(255, 255, 255);}
+ 
+h2 {font-size: 2.5rem;
+    color: rgb(0, 0, 0);}
+
+h5 {font-size: 3.6rem;}   
+
+
+ a {width: 7rem;
+    background-color: rgb(27, 24, 70);
+    color: beige;
+    padding: 0.1rem;
+    display: block;
+    margin-left: 0.5rem;
+    font-size: 1.3rem;
+    text-align: center;
+    border-radius: 0.3rem;
+    transition: 500ms;}
+     
+
+ a:hover {background-color: rgb(238, 238, 244);
+          color: rgb(255, 255, 255);}
+
+ main div {width:100%;
+           height: auto;
+           border: 0.5rem solid rgb(255, 255, 255);
+           background-color: rgb(255, 255, 255);}
+
+
+ main img {width:30%;
+           height: 30%;}
+
+
+footer {font-size: 1.5rem;
+        color: rgb(255, 255, 255);
+        display: flex;
+        justify-content: space-around;
+        min-height: auto;}
+
+
+article {display: flex;
+         justify-content:space-around;
+         width: 100%;}
+
+section.uno {background-color: rgb(5, 245, 213);
+             width: 100%;
+             text-align: center;
+             display: flex;
+             flex-direction: column;
+             justify-content: space-around;
+             align-items: center;}
+        
+         
+section.uno div { display:flex;
+            text-orientation: initial;
+            text-align: left;
+            color: white;
+            width: 50%;}
+
+
+section.uno img {width: 20%;               
+                 color: white;}
+
+
+.success1 {background-color: rgb(5, 245, 213);
+           color: white;} 
+
+
+button {background-color: rgb(5, 245, 213);
+        width: 10rem;
+        border-color: white;
+        color: white;}
+             
+
+section.dos {min-height: 38rem;
+            font-size: 2rem;
+            background-color: white;
+            color: black;
+            text-align: center;
+            flex-direction: column;}
+
+                
+section.dos img {width: 29%;
+                 height: 30%;}
+
+
+section.dos div {text-orientation:initial;
+                 margin-left: 10rem;
+                 text-align: left;
+                 font-size: 1.7rem;}
+               
+
+.success {background-color: rgb(1, 255, 255);
+         color: rgb(0, 0, 0);
+         width: 5rem;
+         height: 2rem;}  
+     
+h3 {font-size: 1.2rem;
+    text-align: center;
+    color: white;}
+
+h6 {font-size: 2.5rem;
+    color: white;}   
+
+nav div {background-color: rgb(0, 1, 20);
+         width: 100%;
+         height: 4rem;
+         text-align: center;
+         flex-direction: column;
+         align-items: center;}
+      
+
+/* Espacio para las Media Queries */
+ @media screen and (max-width: 720px){
+ 
+
+ body {background-color: rgb(255, 255, 255);}
+
+main img {width:48%;
+          height: 48%;}
+.container {width: 95%;}
+nav {width: 95%;}}
+
+
